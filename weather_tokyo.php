@@ -31,7 +31,7 @@
     }
     /* 東京:130010, 千葉:120010, 埼玉:110010 */
     $id = 130010; # 東京
-	$weather = new Weather();
+    $weather = new Weather();
     $result = $weather->search($id);
 
     echo $result['forecasts'][0]['dateLabel'];
